@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.table_light {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+.table_light tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_light tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+.table_light td {
+  padding: 0.5rem;
+}
+
+.table_dark {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  color: #f3f2f8;
+}
+.table_dark tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_dark tr:nth-of-type(odd) {
+  background-color: #555;
+}
+.table_dark td {
+  padding: 0.5rem;
+}
